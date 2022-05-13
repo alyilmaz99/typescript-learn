@@ -1,4 +1,6 @@
-var a = "1";
+var a = "1"; // constant
+var text = "asd"; // can use like that same let text = "asd";
+text = "asddd";
 console.log("aaa", a);
 //tsc main.ts 
 //tsc main.ts -w for watching
