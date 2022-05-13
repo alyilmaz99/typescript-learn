@@ -11,3 +11,14 @@ console.log("aaa", a);
 // we dont use main.ts 
 // just use tsc -w 
 
+//--------functions------
+/* can use like that but wat if we give true or [] 
+const getFullName = (name,surname) =>{
+    return name+ ' '+ surname;
+}
+console.log(getFullName(true, ["asd"]));
+*/
+const getFullName = (name: string, surname: string): string =>{
+    return name+ ' ' + surname;
+}
+console.log(getFullName("ali","yilmaz"));
